@@ -1,0 +1,33 @@
+<div id="app">
+</div>
+
+<form action="https://test1.login.dev.edmentum.com/" method="post">
+  <div>
+    <label for="accountLogin"><b>Account</b></label>
+    <input id="al1" type="text" name="accountLogin" placeholder="Account"></input>
+  </div>
+
+  <div>
+    <label for="userName"><b>Username</b></label>
+    <input id="un1" type="text" name="userName" placeholder="User"></input>
+  </div>
+
+  <div>
+    <label for="password"><b>Password</b></label>
+    <input id="pw1" type="password" name="password" placeholder="PW"></input>
+  </div>
+
+  <div>
+     <button type="submit">Login</button>
+  </div>
+</form>
+
+<script>
+  $( document ).ready(function() {
+    console.log( "ready!" );
+
+    $("input#al1").val("zzz");
+    $("input#un1").val("aaa");
+    $("input#pq1").val("bbb");
+  });
+</script>
